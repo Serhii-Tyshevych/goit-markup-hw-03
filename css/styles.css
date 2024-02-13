@@ -1,14 +1,12 @@
 body {
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   background-color: #fff;
   color: #434455;
 }
-
 a {
   text-decoration: none;
 }
-
 ul,
 ol {
   list-style-type: none;
@@ -16,9 +14,7 @@ ol {
 
 .logo {
   font-family: "Raleway", sans-serif;
-  font-weight: 700;
   font-size: 18px;
-  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -31,127 +27,128 @@ ol {
 .nav-link:focus {
   color: #404bbf;
 }
-.page-footer {
-  background-color: #2e2f42;
-  color: #f4f4fd;
-}
-
-.logo-footer .logo-part {
-  color: #f4f4fd;
-}
-
-.footer-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
 .nav-link {
-  font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
 .contacts-link {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  font-style: normal;
 }
-
 .contacts-link:hover,
 .contacts-link:focus {
   color: #404bbf;
 }
+
 .maim-title {
   background-color: #2e2f42;
 }
-
 .title {
-  font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  line-height: 1.07;
 }
-
 .title-button {
   border-radius: 4px;
   padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
 }
-
 .title-button:hover,
 .title-button:focus {
   background-color: #404bbf;
 }
-
 .title-button:active {
   background-color: #31d0aa;
 }
 .button-text {
-  font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
 }
 
 .goal-title {
-  font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
 }
-
 .goal-subtitle {
-  font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-
 .goal-text {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
+.section-team {
+  background-color: #f4f4fd;
+}
 .team-title {
-  font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+  line-height: 1.11;
 }
-
 .team-subtitle {
-  font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
   color: #2e2f42;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.team-text {
+  font-size: 16px;
+  color: #434455;
 }
 
-.team-text {
-  font-weight: 400;
+.portfolio-title {
+  font-size: 36px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
+  line-height: 1.11;
+}
+
+.portfolio-subtitle {
+  font-size: 20px;
+  color: #2e2f42;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-text {
   font-size: 16px;
-  line-height: 1.5;
   color: #434455;
+}
+
+.page-footer {
+  background-color: #2e2f42;
+  color: #f4f4fd;
+}
+.logo-footer .logo-part {
+  color: #f4f4fd;
+}
+.footer-text {
+  font-size: 16px;
+  letter-spacing: 0.02em;
 }
