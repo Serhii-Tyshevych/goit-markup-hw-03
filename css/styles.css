@@ -187,7 +187,7 @@ img {
 }
 /* ============ Team section ===========*/
 .team-container {
-  display: flex;
+  display: block;
   align-items: center;
 }
 .section-team {
@@ -234,7 +234,7 @@ img {
 }
 /* ============ Portfolio section ===========*/
 .portfolio-container {
-  display: flex;
+  display: block;
   align-items: center;
 }
 .portfolio-title {
