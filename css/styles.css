@@ -159,7 +159,7 @@ img {
   white-space: nowrap;
   clip-path: inset(50%);
   clip: rect(0 0 0 0);
-  overflow-inline: hidden;
+  overflow: hidden;
 }
 
 .goal-list {
@@ -269,7 +269,7 @@ img {
 }
 /* ============ Footer section ===========*/
 .footer-container {
-  display: bloc;
+  display: block;
   align-items: center;
 }
 .page-footer {
