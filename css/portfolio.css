@@ -1,6 +1,12 @@
 .portfolio {
 }
+.portfolio-wrapper {
+  
+  padding: 120px 0;
+  
+}
 .portfolio-title {
+  margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -8,8 +14,12 @@
   color: #2e2f42;
 }
 .portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 .portfolio-item {
+  width: calc((100% - 24px * 2) / 3);
 }
 .portfolio-ill {
 }
